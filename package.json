@@ -1,0 +1,10 @@
+{
+  "name": "accuknox-playwright-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test --project=chromium --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.0"
+  }
+}
