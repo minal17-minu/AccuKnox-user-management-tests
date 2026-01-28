@@ -1,6 +1,7 @@
 const { test, expect } = require('@playwright/test');
-const LoginPage = require('../pages/LoginPage');
-const AdminUserPage = require('../Pages/AdminUserPage');
+const LoginPage = require('../pages/loginPage');
+const AdminUserPage = require('../pages/adminUserPage');
+
 
 test('Complete User Management Flow', async ({ page }) => {
   const loginPage = new LoginPage(page);
